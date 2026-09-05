@@ -1,0 +1,10 @@
+body {
+    background-color: #111111;
+    color: white;
+}
+
+canvas {
+    image-rendering: pixelated;
+    background: #000000;
+    border-radius: 5px;
+}
