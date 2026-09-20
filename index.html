@@ -10,10 +10,41 @@
 
 <body>
 
+  <section class="touch-controls touch-controls-left" aria-label="Movement controls">
+    <button class="touch-button touch-button-up" data-key="38" aria-label="Move up">
+      <img src="GFX/TouchInputUI/ButtonBase.png" alt="">
+      <img src="GFX/TouchInputUI/ArrowUp.png" alt="">
+    </button>
+    <button class="touch-button touch-button-left" data-key="37" aria-label="Move left">
+      <img src="GFX/TouchInputUI/ButtonBase.png" alt="">
+      <img src="GFX/TouchInputUI/ArrowLeft.png" alt="">
+    </button>
+    <button class="touch-button touch-button-right" data-key="39" aria-label="Move right">
+      <img src="GFX/TouchInputUI/ButtonBase.png" alt="">
+      <img src="GFX/TouchInputUI/ArrowRight.png" alt="">
+    </button>
+    <button class="touch-button touch-button-down" data-key="40" aria-label="Move down">
+      <img src="GFX/TouchInputUI/ButtonBase.png" alt="">
+      <img src="GFX/TouchInputUI/ArrowDown.png" alt="">
+    </button>
+  </section>
+
   <canvas id="myCanvas"></canvas>
+
+  <section class="touch-controls touch-controls-right" aria-label="Action controls">
+    <button class="touch-button touch-button-a" data-key="13" aria-label="A: place bomb">
+      <img src="GFX/TouchInputUI/ButtonBase.png" alt="">
+      <img src="GFX/TouchInputUI/ButtonA.png" alt="A">
+    </button>
+    <button class="touch-button touch-button-b" data-key="17" aria-label="B: detonate bomb">
+      <img src="GFX/TouchInputUI/ButtonBase.png" alt="">
+      <img src="GFX/TouchInputUI/ButtonB.png" alt="B">
+    </button>
+  </section>
 
   <script type="text/javascript" src="Scripts/Common/keyCodes.js"></script>
   <script type="text/javascript" src="Scripts/Common/keyHandler.js"></script>
+  <script type="text/javascript" src="Scripts/Common/touchControls.js"></script>
   <script type="text/javascript" src="Scripts/Common/storage.js"></script>
   <script type="text/javascript" src="Scripts/Common/font.js"></script>
   <script type="text/javascript" src="Scripts/Common/sound.js"></script>
