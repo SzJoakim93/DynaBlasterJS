@@ -11,7 +11,7 @@ function MainMenu() {
     this.currentMenu.addMenuPointText("New Game", startNewGame);
     this.currentMenu.addMenuPointText("Continume", continueGame);
     this.currentMenu.addMenuPointText("Battle mode", battleMode);
-    this.currentMenu.addMenuPointText("Quit", function () { });
+    this.currentMenu.addMenuPointText("Quit", function () { window.close(); });
 
     this.bgMusic = new Sound("Music/Menu.mp3");
 
